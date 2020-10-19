@@ -197,6 +197,13 @@ section h1 {
   
 }
 
+.carousel-control-prev {
+  position: absolute;
+  top: 80%;
+ left: 80%;
+}
 
-
-
+.carousel-control-next {
+  position: absolute;
+  top: 80%;
+}
