@@ -175,7 +175,7 @@ section {
     font-size: 1.7em;
     margin-bottom: 17px;
     font-weight: bolder;
-    z-index: 150;
+   
 }
 
 .content p {
@@ -240,6 +240,11 @@ small a:hover {
 
 
 @media screen and (min-width: 1024px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
   .w-100 {
     width: 70%!important;
     flex-wrap: wrap;
@@ -252,6 +257,10 @@ small a:hover {
   top: 10%;
 
     flex-wrap: wrap;
+  }
+
+  .content h2 {
+    position: relative;
   }
 
   .content p {
