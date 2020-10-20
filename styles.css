@@ -253,29 +253,15 @@ padding: 0 40px 0 0;
 
 
   .w-100 {
-
+    width: 70%!important;
     height: 534px;
     object-fit: cover;
-    width: 70%;
-   
-
-    width: calc(840px - (1115px - 100vw));
-    height: 534px;
-    object-fit: cover;
-
-    /*width: calc(840px - (1115px - 100vw));
-    height: 534px;
-    /*width: 50%!important;*/
-    /*width: 840px;
-    flex-wrap: wrap;*/
-  
 }
   
 .content {
   position: absolute;
   left: 75%;
   top: 10%;
-
     flex-wrap: wrap;
   }
 
@@ -289,6 +275,23 @@ padding: 0 40px 0 0;
 
   .carousel-control-next {
     left: 60%;
+  }
+
+  .about {
+    flex-wrap: wrap;
+  }
+
+  .about img {
+    display: flex;
+    width: 440px;
+    height: 266px;
+    object-fit: cover;
+  }
+
+  .about p {
+    flex-wrap: wrap;
+    position: absolute;
+    left: 30%;
   }
 }
 
