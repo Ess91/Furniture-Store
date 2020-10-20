@@ -231,6 +231,23 @@ small a:hover {
   text-decoration: underline;
 }
 
+
+@media (max-width: 1440px) {
+.carousel-item img
+ {
+    max-width: 840px;
+}
+
+.carousel-control-next {
+  left: 60%;
+}
+
+.content {
+  width: 20em;
+}
+
+}
+
 /*.navigation-arrows {
   bottom: 20.7%;
   right: 5%;
