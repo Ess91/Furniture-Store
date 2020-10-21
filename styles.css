@@ -232,7 +232,14 @@ small a:hover {
   text-decoration: underline;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 576px) {
+  .carousel-inner {
+    width: calc(7em * 7);
+  }
+  
+}
+
+@media screen and (min-width: 861px) {
   body {
     margin: 0;
     padding: 0;
@@ -261,14 +268,21 @@ small a:hover {
     top: 10%;
     flex-wrap: wrap;
     background: white;
+   
   }
 
   .content h2 {
     position: relative;
+    padding: 0 0 0 40px;
   }
 
   .content p {
-    width: 30em;
+    width: 40em;
+    padding: 0 40px;
+  }
+
+  .shop {
+    padding: 0 0 0 40px;
   }
 
   .carousel-control-next {
