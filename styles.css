@@ -408,11 +408,8 @@ small a:hover {
   position: relative;
 }
 
-nav {
-  position: absolute;
-  top: 5%;
-  z-index: -1;
-  color: #000;
+ .nav-wrapper ul li {
+  transform: rotate(180deg);
 }
 
 
