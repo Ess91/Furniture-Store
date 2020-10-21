@@ -188,10 +188,19 @@ section {
   font-weight: bold;
 }
 
+img {
+  width: 100%;
+}
+
 .about img {
   width: 100%;
   padding-bottom: 30px;
 }
+
+.last-picture {
+  width: 100%;
+}
+
 
 .title {
   font-size: 13px;
@@ -232,13 +241,30 @@ small a:hover {
   text-decoration: underline;
 }
 
+
 @media screen and (min-width: 576px) {
-  .carousel-inner {
-    width: calc(7em * 7);
+  section {
+    width: 100%;
+    
+  }
+
+  .carousel-inner,
+  .about img, 
+  .last-picture {
+    width: calc(7em * 6);
+  }
+
+  .info {
+    width: 55em;
   }
   
 }
 
+@media screen and (min-width: 768px) {
+ .carousel-inner {
+   width: 100vw;
+ }
+}
 @media screen and (min-width: 861px) {
   body {
     margin: 0;
