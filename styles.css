@@ -265,6 +265,7 @@ small a:hover {
    width: 100vw;
  }
 }
+
 @media screen and (min-width: 861px) {
   body {
     margin: 0;
@@ -334,7 +335,7 @@ small a:hover {
     flex-wrap: wrap;
     position: absolute;
     left: 50%; 
-    width: 30em;
+    
     bottom: 1%;
   }
 
@@ -367,43 +368,62 @@ small a:hover {
    left: 5%;
  }
 
- nav ul {
-  float: right;
+ 
 }
 
- nav ul li {
-  display: inline-block;
+@media screen and (min-width: 1024px) {
+  .content {
+    left: 75%;
+    /* padding-right: 20px; */
+    margin-left: 99px;
+  }
+
+  .w-100 {
+    width: 80%!important;
 }
+
+.about .title {
+  left: 44%;
+  bottom: 25%;
+}
+
+.about p:nth-child(3) {
+  left: 42%;
+  bottom: -1%;
+}
+
+.last-picture img {
+  width: 517px;
   
-nav ul li {
-  display: inline-block;
+  bottom: -6%;
+  right: -27%;
+  
 }
 
-nav ul li:not(:first-child) {
-  margin-left: 48px;
+.carousel-control-next {
+  left: 65%;
 }
 
-nav ul li:last-child {
-  margin-right: 24px;
+.carousel-inner {
+  position: relative;
 }
 
-nav ul li a {
-  display: inline-block;
-  outline: none;
-  color: #000000;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 14px;
-  letter-spacing: 1.2px;
-  font-weight: 600;
-  font-family: "Montserrat", sans-serif;
-}
-
-nav ul li a:hover {
-  text-decoration: none;
+nav {
+  position: absolute;
+  top: 5%;
+  z-index: -1;
   color: #000;
 }
 
 
 
+}
+
+@media screen and (min-width: 1440) {
+  .carousel-control-next {
+    left: 90%;
+  }
+  .last-picture {
+    width: 100%;
+  }
 }
