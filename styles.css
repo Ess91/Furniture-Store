@@ -257,17 +257,19 @@ small a:hover {
 }
 
   .w-100 {
-    width: 75% !important;
+  
     height: 534px;
     object-fit: cover;
   }
 
   .content {
     position: absolute;
-    left: 75%;
+    left: 89%;
     top: 10%;
     flex-wrap: wrap;
     background: white;
+    margin-left: 90px;
+   
    
   }
 
@@ -277,7 +279,7 @@ small a:hover {
   }
 
   .content p {
-    width: 40em;
+    width: 30em;
     padding: 0 40px;
   }
 
@@ -292,11 +294,12 @@ small a:hover {
   .about {
     flex-wrap: wrap;
     background-color: white;
+    
   }
 
   .about img {
     display: flex;
-    width: 450px;
+    width: 430px;
     height: 320px;
     object-fit: cover;
   }
@@ -304,28 +307,27 @@ small a:hover {
   .about .title {
     flex-wrap: wrap;
     position: absolute;
-    left: 40%;
+    left: 50%; 
     width: 30em;
-    top: 50%;
+    bottom: 1%;
   }
 
   .about p:nth-child(3) {
-    width: 31em;
+    width: 29em;
     position: absolute;
-    left: 37%;
-    right: 40;
-    top: 55%;
+    left: 48%;
+    bottom: -32%;
   }
 
   .last-picture img {
     display: flex;
     flex-wrap: wrap;
-    width: 450px;
+    width: 430px;
     height: 320px;
     object-fit: cover;
     position: absolute;
-    top: 47.5%;
-    left: 67%;
+    bottom: -41%;
+    right: -36.2%;
     padding-bottom: 29px;
 
   }
