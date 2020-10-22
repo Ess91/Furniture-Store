@@ -384,19 +384,18 @@ small a:hover {
 
 .about .title {
   left: 44%;
-  bottom: 25%;
+  bottom: 22%;
 }
 
 .about p:nth-child(3) {
   left: 42%;
-  bottom: -1%;
+  bottom: -5%;
 }
 
 .last-picture img {
-  width: 517px;
-  
-  bottom: -6%;
-  right: -27%;
+  bottom: -14%;
+  right: -23%;
+  width: 470px;
   
 }
 
@@ -412,15 +411,13 @@ small a:hover {
   transform: rotate(180deg);
 }
 
-
-
 }
 
 @media screen and (min-width: 1440) {
   .carousel-control-next {
     left: 90%;
   }
-  .last-picture {
-    width: 100%;
+  .last-pic {
+    left: -70%;
   }
 }
